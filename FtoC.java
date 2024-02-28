@@ -9,8 +9,11 @@ class FtoC extends ConsoleProgram {
     // Takes in celcius 
     int intFahrenheit = readInt("Input Temp in Fahrenheit: ");
 
-    // Calcuates fahrenheit and prints it 
-    System.out.println("Your temperature in Celcius is: " + Math.round(((double)5 * (intFahrenheit - 32)) /9));
+    //Calculates celcius
+    double dblCelc = Math.round((double)((5 * (intFahrenheit - 32)) /9));
+
+    // prints out Celcius
+    System.out.println("Your temperature in Celcius is: " + (int)dblCelc );
     
   }
 }

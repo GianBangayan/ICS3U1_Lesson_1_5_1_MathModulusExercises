@@ -8,7 +8,10 @@ class Circumference extends ConsoleProgram {
     //read input from user
     double dblRad = readDouble("Please give me the Radius of the Circle: ");
 
-    //calculate and prints radius
-    System.out.println("The Radius is " + (dblRad * 2 * Math.PI));
+    //calculates Circumference
+    double dblCirc = (dblRad * 2 * Math.PI);
+
+    //prints circumference
+    System.out.println("The circumference is " + dblCirc);
   }
 }

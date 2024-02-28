@@ -9,7 +9,13 @@ class Hours extends ConsoleProgram {
     //input hours 
     int intHours = readInt("Input hours: ");
 
-    //Calculate modulus of the hours 
-    System.out.println("There are " + intHours/24 +" Days and "+ intHours%24 + " Hours");
+    //Calc Days
+    int intDays = intHours / 24;
+
+    //Calc remainder hours
+    int intRemainHours = intHours % 24;
+
+  //prints the number of days and modulus of the hours 
+    System.out.println("There are " + intDays +" Days and "+ intRemainHours + " Hours");
   }
 }

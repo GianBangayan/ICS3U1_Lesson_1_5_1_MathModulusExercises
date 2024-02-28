@@ -9,7 +9,10 @@ class Rads extends ConsoleProgram {
     // take in degrees
     double dblDeg = readDouble("Please give me the angle you want to convert to radians");
 
+    //converts degrees into radians
+    double dblRad = Math.toRadians(dblDeg);
+    
     // Calculates and prints radians
-    System.out.println("Your angle is" + Math.toRadians(dblDeg) + " Radians");
+    System.out.println("Your angle is" + dblRad + " Radians");
   }
 }

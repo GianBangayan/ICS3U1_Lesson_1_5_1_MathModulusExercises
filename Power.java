@@ -10,8 +10,11 @@ class Power extends ConsoleProgram {
     double dblA = readDouble("Input base: ");
     double dblB = readDouble("Input power: ");
 
-    // Calculates the power of A and prints
-    System.out.println("Your result is: " + Math.pow(dblA, dblB));
+    //Calculates A to the power of B
+    double dblResultant = Math.pow(dblA, dblB);
+
+    // Prints the power of A and prints 
+    System.out.println("Your result is: " + dblResultant);
     
   }
 }
